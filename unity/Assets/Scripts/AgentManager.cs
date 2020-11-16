@@ -228,6 +228,7 @@ public class AgentManager : MonoBehaviour
         }
         
 		primaryAgent.ProcessControlCommand (action);
+		print("makeAgentsVisible is: " + action.makeAgentsVisible);
 		primaryAgent.IsVisible = action.makeAgentsVisible;
 		this.renderClassImage = action.renderClassImage;
 		this.renderDepthImage = action.renderDepthImage;

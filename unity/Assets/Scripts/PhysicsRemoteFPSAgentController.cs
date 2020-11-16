@@ -4302,6 +4302,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             //ok we are holding something, time to try and place it
             InstantiatePrefabTest script = physicsSceneManager.GetComponent<InstantiatePrefabTest>();
             //set degreeIncrement to 90 for placing held objects to check for vertical angles
+            print("what is onlyPointsCloseToAgent: " + onlyPointsCloseToAgent);
             List<ReceptacleSpawnPoint> spawnPoints = targetReceptacle.ReturnMySpawnPoints(onlyPointsCloseToAgent);
             if (action.randomSeed != 0) {
                 List<ReceptacleSpawnPoint> randomizedSpawnPoints = new List<ReceptacleSpawnPoint>();

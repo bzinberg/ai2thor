@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.7053506, g: 0.7196493, b: 0.73892707, a: 1}
+  m_IndirectSpecularColor: {r: 0.7170012, g: 0.7306422, b: 0.7505908, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1058,7 +1058,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &40943768
 Transform:
   m_ObjectHideFlags: 0
@@ -3462,7 +3475,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &121275854
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,7 +4073,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &132473220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5497,7 +5536,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &169710993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5869,7 +5921,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &178884841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8258,7 +8323,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &252944114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8867,7 +8945,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &271913140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9917,7 +10008,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &298312467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20849,7 +20953,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &673318727
 GameObject:
   m_ObjectHideFlags: 0
@@ -21039,7 +21156,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1794258802}
-  occupied: 0
 --- !u!65 &676984617
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22399,7 +22515,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &706923187
 GameObject:
   m_ObjectHideFlags: 0
@@ -23252,7 +23381,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &742778974
 Transform:
   m_ObjectHideFlags: 0
@@ -23403,7 +23545,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &747248688
 GameObject:
   m_ObjectHideFlags: 0
@@ -24730,7 +24885,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &786800541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26005,7 +26173,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &826208284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27299,7 +27480,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &856510698
 GameObject:
   m_ObjectHideFlags: 0
@@ -27640,37 +27834,37 @@ PrefabInstance:
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0000074990094
+      value: -0.942
       objectReference: {fileID: 0}
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00058692694
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.2430022
+      value: 1.521
       objectReference: {fileID: 0}
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0000005789334
+      value: -0.0000000129616975
       objectReference: {fileID: 0}
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.18015401
       objectReference: {fileID: 0}
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00000011920929
+      value: -0.00000059093713
       objectReference: {fileID: 0}
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.00000008032657
+      value: 0.98363847
       objectReference: {fileID: 0}
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
@@ -27685,7 +27879,7 @@ PrefabInstance:
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180.00002
+      value: 20.757002
       objectReference: {fileID: 0}
     - target: {fileID: 7442099471613157706, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
@@ -27697,6 +27891,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_08eed4ad
       objectReference: {fileID: 0}
+    - target: {fileID: 7442099472530889696, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fb9f596729b2487ca05b066c6f024f4, type: 2}
+    - target: {fileID: 7442099472530889696, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fb9f596729b2487ca05b066c6f024f4, type: 2}
     - target: {fileID: 7442099472530889724, guid: b21767a5ca0bd5f449c19ee7f5a8ade7,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28189,7 +28393,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &881658756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28885,7 +29102,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &913259051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30199,7 +30429,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &952371574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32031,7 +32274,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1005729885
 Transform:
   m_ObjectHideFlags: 0
@@ -33842,7 +34098,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1272828761}
-  occupied: 0
 --- !u!65 &1037297477
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34818,7 +35073,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1272828761}
-  occupied: 0
 --- !u!65 &1090089707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38780,7 +39034,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1272828761}
-  occupied: 0
 --- !u!65 &1198919251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39290,7 +39543,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &1214849059
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -40221,7 +40487,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1241867255
 GameObject:
   m_ObjectHideFlags: 0
@@ -40920,7 +41199,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1272828761}
-  occupied: 0
 --- !u!65 &1252028976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41484,7 +41762,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1272828764
 Transform:
   m_ObjectHideFlags: 0
@@ -42201,7 +42492,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1298483390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42400,7 +42704,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1300291747
 GameObject:
   m_ObjectHideFlags: 0
@@ -46041,7 +46358,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1377664264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47353,7 +47683,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1427516951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50688,7 +51031,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1001 &1510923621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51128,7 +51484,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1521348530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52668,7 +53037,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1578456826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55053,7 +55435,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1272828761}
-  occupied: 0
 --- !u!65 &1653885695
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58086,7 +58467,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1738775302
 Transform:
   m_ObjectHideFlags: 0
@@ -58175,7 +58569,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1272828761}
-  occupied: 0
 --- !u!65 &1741055505
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58286,7 +58679,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: -1.015
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -58294,7 +58687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 2.557
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -58641,7 +59034,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1272828761}
-  occupied: 0
 --- !u!65 &1769017982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59257,7 +59649,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1795015934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6270588446337126517, guid: 0f393baf8fb804bc6980b5c23b0fdce3,
@@ -59430,7 +59835,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &1799313333
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -64087,6 +64505,89 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978529120}
   m_Mesh: {fileID: 4300070, guid: b2cf8e1dc91544c288c9ecd9c12f44ae, type: 3}
+--- !u!1 &1980028718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1980028721}
+  - component: {fileID: 1980028720}
+  - component: {fileID: 1980028719}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1980028719
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980028718}
+  m_Enabled: 1
+--- !u!20 &1980028720
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980028718}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 82
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 1847
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 1
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1980028721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980028718}
+  m_LocalRotation: {x: -0.044343874, y: 0.8875861, z: -0.08744776, w: -0.45008603}
+  m_LocalPosition: {x: 0.735, y: 1.37, z: 2.297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 11.254001, y: 233.77798, z: 0}
 --- !u!1 &1982940763
 GameObject:
   m_ObjectHideFlags: 0
@@ -64866,7 +65367,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &2022925384
 Transform:
   m_ObjectHideFlags: 0
@@ -65267,7 +65781,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &2033044670
 GameObject:
   m_ObjectHideFlags: 0
@@ -66831,7 +67358,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &2085280551
 GameObject:
   m_ObjectHideFlags: 0
@@ -71990,7 +72530,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114247243423261943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72029,7 +72582,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114247244107720557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72068,7 +72634,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114247244362708775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72107,7 +72686,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114247244506978782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72146,7 +72738,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114247244610267742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72185,7 +72790,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114660693538926869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72200,7 +72818,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1508753406}
-  occupied: 0
 --- !u!114 &114739950834541479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72248,7 +72865,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &2741586051957258753
 Transform:
   m_ObjectHideFlags: 0

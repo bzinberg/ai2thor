@@ -86,6 +86,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 			set 
             {
+                print("HideAllAgentRenderer called by isVisible Setter");
                 //first default all Vis capsules of all modes to not enabled
                 HideAllAgentRenderers();
 
@@ -214,6 +215,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             //setting default renderer settings
             //this hides renderers not used in tall mode, and also sets renderer
             //culling in FirstPersonCharacterCull.cs to ignore tall mode renderers
+            print("hideAllAgentRenderers called by BaseFPSAGent Start()");
             HideAllAgentRenderers();
 
 			// record initial positions and rotations
@@ -244,6 +246,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         //defaults all agent renderers, from all modes (tall, bot, drone), to hidden for initialization default
         protected void HideAllAgentRenderers()
         {
+            print("HideAllAgentRenderes on BaseFPSAgent is called");
             foreach(Renderer r in TallVisCap.GetComponentsInChildren<Renderer>())
             {
                 if(r.enabled)

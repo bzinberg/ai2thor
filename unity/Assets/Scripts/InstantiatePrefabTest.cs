@@ -165,7 +165,7 @@ public class InstantiatePrefabTest : MonoBehaviour
     //be randomized so that the random spawn is... random
     public bool PlaceObjectReceptacle(List<ReceptacleSpawnPoint> rsps, SimObjPhysics sop, bool PlaceStationary, int maxPlacementAttempts, int degreeIncrement, bool AlwaysPlaceUpright)
     {
-        
+        print("inside PlaceObjectReceptacle on InstantiatePrefabTest.cs");
         if(rsps == null)
         {
             #if UNITY_EDITOR
@@ -175,6 +175,7 @@ public class InstantiatePrefabTest : MonoBehaviour
         }
         if (rsps.Count == 0)
         {
+            print("oh uhh, rsps count is 0?");
             return false;
         }
 
@@ -190,8 +191,10 @@ public class InstantiatePrefabTest : MonoBehaviour
 
         //try a number of spawnpoints in this specific receptacle up to the maxPlacementAttempts
         int tries = 0;
+        print("goodRsps count is: " + goodRsps.Count);
         foreach (ReceptacleSpawnPoint p in goodRsps)
         {
+            print("PlaceObject is trying to happen");
             if (PlaceObject(sop, p, PlaceStationary, degreeIncrement, AlwaysPlaceUpright))
             {
                 return true;

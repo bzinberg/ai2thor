@@ -227,7 +227,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                         action.rotateStepDegrees = 45;
                         action.agentMode = "bot";
                         action.agentControllerType = "stochastic";
-
+                        action.makeAgentsVisible = true;
                         action.applyActionNoise = true;
                        
                         action.snapToGrid = false;
@@ -651,6 +651,32 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     Debug.Log("last joint position");
                     Vector3 rrpos = armmeta.joints[armmeta.joints.Length - 1].rootRelativePosition;
                     Debug.Log("Root Relative Arm Position - x:" + rrpos.x.ToString("0.###") + " y:" + rrpos.y.ToString("0.###") + " z:" + rrpos.z.ToString("0.###"));
+                    break;
+                }
+
+                case "puterror":
+                {
+                    List<string> commands = new List<string>();
+                    commands.Add("init");
+                    commands.Add("rr");
+                    commands.Add("rr");
+                    commands.Add("ma");
+                    commands.Add("ma");
+                    commands.Add("ma");
+                    commands.Add("ma");
+                    commands.Add("ma");
+                    commands.Add("pu ButterKnife|-00.41|+00.93|-02.52");
+                    commands.Add("rr");
+                    commands.Add("rr");
+                    commands.Add("ma");
+                    commands.Add("ma");
+                    commands.Add("ma");
+                    commands.Add("ma");
+                    commands.Add("ma");
+                    commands.Add("ld");
+                    commands.Add("ld");
+                    commands.Add("put SideTable|-04.03|+00.00|-00.30");
+                    StartCoroutine(ExecuteBatch(commands));
                     break;
                 }
 

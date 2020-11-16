@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.9458867, g: 0.9721845, b: 0.7823393, a: 1}
+  m_IndirectSpecularColor: {r: 0.94317067, g: 0.9682602, b: 0.7794443, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1245,7 +1245,6 @@ Transform:
   - {fileID: 441203720}
   - {fileID: 1237949492}
   - {fileID: 670547531}
-  - {fileID: 315478786}
   - {fileID: 1973776050}
   - {fileID: 796905821}
   - {fileID: 455299916}
@@ -1322,7 +1321,7 @@ Transform:
   - {fileID: 807691084}
   - {fileID: 1987307424}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &39103212
 PrefabInstance:
@@ -1859,7 +1858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4303234351116976, guid: 41e0d019caa774233bf63ed379d092ea, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4303234351116976, guid: 41e0d019caa774233bf63ed379d092ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2283,7 +2282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4340207458070068, guid: 455a094c271f5394f9d1f479ae9a4a8b, type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 84
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 455a094c271f5394f9d1f479ae9a4a8b, type: 3}
@@ -2662,7 +2661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4818036067491336, guid: fdc09cab87950cc4c98ff3080290b1b6, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdc09cab87950cc4c98ff3080290b1b6, type: 3}
@@ -2857,7 +2856,7 @@ Transform:
   - {fileID: 177790550}
   - {fileID: 1545907685}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &85340403
 Rigidbody:
@@ -2928,7 +2927,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &85340405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4346,7 +4358,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 725166371}
-  occupied: 0
 --- !u!65 &144892040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5456,7 +5467,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1292783981}
-  occupied: 0
 --- !u!65 &186238455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6301,7 +6311,7 @@ Transform:
   - {fileID: 763518336}
   - {fileID: 2103244910}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 70
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 179.99998, z: 0}
 --- !u!54 &207999462
 Rigidbody:
@@ -6372,7 +6382,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &207999464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6809,7 +6832,7 @@ Transform:
   - {fileID: 548580881}
   - {fileID: 562351549}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 57
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &219138887
 Rigidbody:
@@ -6880,7 +6903,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &219138889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6972,7 +7008,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &220929986
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7716,7 +7765,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 673609992}
-  occupied: 0
 --- !u!65 &240378437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9427,7 +9475,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1823577884}
-  occupied: 0
 --- !u!65 &302112341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9495,7 +9542,7 @@ Transform:
   - {fileID: 2102445902}
   - {fileID: 1860717836}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &303061104
 Rigidbody:
@@ -9566,7 +9613,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &303061106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9662,7 +9722,7 @@ Transform:
   - {fileID: 392881607}
   - {fileID: 1729904862}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &305068478
 MonoBehaviour:
@@ -9754,7 +9814,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &311988545
 GameObject:
   m_ObjectHideFlags: 0
@@ -10048,12 +10121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b439f6e4ef5714ee2a3643acf37b7a9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &315478786 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1990081756}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &316174537
 GameObject:
   m_ObjectHideFlags: 0
@@ -10894,7 +10961,7 @@ Transform:
   - {fileID: 1955477849}
   - {fileID: 1129535801}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &341077970
 MonoBehaviour:
@@ -10987,7 +11054,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &341640469
 GameObject:
   m_ObjectHideFlags: 0
@@ -11675,7 +11755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4013657368933092, guid: a8e652189b1870b4a88918b02d1501ce, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8e652189b1870b4a88918b02d1501ce, type: 3}
@@ -12391,7 +12471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4392085232731934, guid: fc1ba553e6cb3ce41aeb2e1b82800a0d, type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 86
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ba553e6cb3ce41aeb2e1b82800a0d, type: 3}
@@ -12844,7 +12924,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 3
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &391027613
 Transform:
   m_ObjectHideFlags: 0
@@ -13078,7 +13158,7 @@ Transform:
   - {fileID: 147160233}
   - {fileID: 1065998895}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 58
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &395727165
 Rigidbody:
@@ -13149,7 +13229,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &395727167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13981,7 +14074,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &423045188
 Transform:
   m_ObjectHideFlags: 0
@@ -14000,7 +14106,7 @@ Transform:
   - {fileID: 1021569778}
   - {fileID: 348841365}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 61
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &423045189
 MonoBehaviour:
@@ -14571,7 +14677,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &440500593
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15956,7 +16075,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1292783981}
-  occupied: 0
 --- !u!65 &491747310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17636,7 +17754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4480105654147594, guid: d9634031ad0b2af469ec7aa2056f6772, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4480105654147594, guid: d9634031ad0b2af469ec7aa2056f6772, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -18778,7 +18896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4150080897971512, guid: bc862083b5a214bceb38b5ecb2038b7f, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc862083b5a214bceb38b5ecb2038b7f, type: 3}
@@ -19363,7 +19481,7 @@ Transform:
   - {fileID: 1651184145}
   - {fileID: 1989689375}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 179.99998, z: 0}
 --- !u!54 &604842117
 Rigidbody:
@@ -19434,7 +19552,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &604842119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20546,7 +20677,7 @@ Transform:
   - {fileID: 2051094786}
   - {fileID: 818383013}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &636843789
 Rigidbody:
@@ -20617,7 +20748,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &636843791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21185,7 +21329,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 673609992}
-  occupied: 0
 --- !u!65 &660867448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21403,7 +21546,7 @@ Transform:
   - {fileID: 1010795327}
   - {fileID: 109540321}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &668267279
 MonoBehaviour:
@@ -21495,7 +21638,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &668951887
 GameObject:
   m_ObjectHideFlags: 0
@@ -21790,7 +21946,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &673609995
 Transform:
   m_ObjectHideFlags: 0
@@ -21810,7 +21979,7 @@ Transform:
   - {fileID: 7152854152097075927}
   - {fileID: 1227606664}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 66
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &675636345
 GameObject:
@@ -22461,7 +22630,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 673609992}
-  occupied: 0
 --- !u!65 &704489936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23056,7 +23224,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &725166374
 Transform:
   m_ObjectHideFlags: 0
@@ -23075,7 +23256,7 @@ Transform:
   - {fileID: 7152854152097075931}
   - {fileID: 956599733}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 65
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &727717330
 GameObject:
@@ -23316,7 +23497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4696556782369500, guid: a60ab6d1d983b454ebba04293816064f, type: 3}
       propertyPath: m_RootOrder
-      value: 88
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 4696556782369500, guid: a60ab6d1d983b454ebba04293816064f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -24292,7 +24473,7 @@ Transform:
   - {fileID: 830121990}
   - {fileID: 19886721}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 55
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &756547823
 Rigidbody:
@@ -24363,7 +24544,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &756547825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26263,7 +26457,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &823476109
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26967,6 +27174,67 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 841122554}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &842405932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1459226364814946, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_Name
+      value: Pan_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459226364814946, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.273
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.119
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.941
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.270713
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96266013
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 31.413002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460768756542890, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ad5e4fcdc63428439e2096e0e83a00d, type: 3}
 --- !u!1 &843520221 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1170333579371094, guid: 6877aba5a696347dbb6c01f851f2da28,
@@ -27089,7 +27357,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 673609992}
-  occupied: 0
 --- !u!65 &847800496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28389,7 +28656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4843470684545140, guid: f04343d5a0f16304392b506c7a5d7b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 4843470684545140, guid: f04343d5a0f16304392b506c7a5d7b0f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -28915,7 +29182,7 @@ Transform:
   - {fileID: 9972905}
   - {fileID: 862907078}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &914206437
 Rigidbody:
@@ -28986,7 +29253,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &914206439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30426,7 +30706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4042404749135100, guid: bf146d8dcd333a448b5b553e2ed3bb4e, type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 4042404749135100, guid: bf146d8dcd333a448b5b553e2ed3bb4e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -32037,7 +32317,7 @@ Transform:
   - {fileID: 963038525}
   - {fileID: 2086036044}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1029533789
 Rigidbody:
@@ -32108,7 +32388,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1029533791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32197,7 +32490,7 @@ Transform:
   - {fileID: 1703296666}
   - {fileID: 1770560835}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1031342895
 PrefabInstance:
@@ -32405,7 +32698,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1823577884}
-  occupied: 0
 --- !u!65 &1033464018
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33278,7 +33570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4601833612635280, guid: 35d504002ed0e4552b42e9275dc2683c, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35d504002ed0e4552b42e9275dc2683c, type: 3}
@@ -33500,7 +33792,7 @@ Transform:
   - {fileID: 1354043377}
   - {fileID: 875673397}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1066945975
 Rigidbody:
@@ -33571,7 +33863,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1066945977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34487,7 +34792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4468376325903498, guid: 4e98163d12cf5b844967076eb276319d, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e98163d12cf5b844967076eb276319d, type: 3}
@@ -34757,6 +35062,89 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.012979143, y: 0.57314634, z: 0.3579689}
   m_Center: {x: 0, y: 0, z: 0.17898445}
+--- !u!1 &1119485970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119485973}
+  - component: {fileID: 1119485972}
+  - component: {fileID: 1119485971}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1119485971
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119485970}
+  m_Enabled: 1
+--- !u!20 &1119485972
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119485970}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 1847
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 2
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1119485973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119485970}
+  m_LocalRotation: {x: 0.18552917, y: 0.67901874, z: -0.18394907, w: 0.68605775}
+  m_LocalPosition: {x: 1.3248289, y: 1.2681851, z: -0.95401454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 30.29, y: 89.401, z: -0.029000001}
 --- !u!1 &1119507920
 GameObject:
   m_ObjectHideFlags: 0
@@ -34795,7 +35183,7 @@ Transform:
   - {fileID: 1201283711}
   - {fileID: 562313364}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1119507923
 Rigidbody:
@@ -34866,7 +35254,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1119507925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35300,7 +35701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589637511365660, guid: 59815311428a0484e8a099ef2dd71574, type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59815311428a0484e8a099ef2dd71574, type: 3}
@@ -35829,7 +36230,7 @@ PrefabInstance:
     - target: {fileID: 5122161660437329742, guid: 78f635d28540b459bb9faae524f96e30,
         type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 5122161660437329742, guid: 78f635d28540b459bb9faae524f96e30,
         type: 3}
@@ -36110,7 +36511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4824348846060506, guid: a38ad65fc3c01a240b7d73e240dd703b, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a38ad65fc3c01a240b7d73e240dd703b, type: 3}
@@ -36655,7 +37056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511095621582240, guid: 8f1141233b0ae344a99cb6b708d8be8e, type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 83
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f1141233b0ae344a99cb6b708d8be8e, type: 3}
@@ -39460,7 +39861,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1823577884}
-  occupied: 0
 --- !u!65 &1202820959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40988,7 +41388,7 @@ PrefabInstance:
     - target: {fileID: 2365502302183138545, guid: 516db061633ca4ad5ac050fcb7316e73,
         type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 2365502302183138545, guid: 516db061633ca4ad5ac050fcb7316e73,
         type: 3}
@@ -41193,7 +41593,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41289,7 +41702,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1237949353
 GameObject:
   m_ObjectHideFlags: 0
@@ -41650,7 +42076,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41704,7 +42143,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1237949373
 Transform:
   m_ObjectHideFlags: 0
@@ -41723,7 +42175,7 @@ Transform:
   - {fileID: 714935145}
   - {fileID: 1835287255}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1237949375
 MonoBehaviour:
@@ -41824,7 +42276,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41924,7 +42389,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42015,7 +42493,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42106,7 +42597,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42197,7 +42701,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42258,7 +42775,7 @@ Transform:
   - {fileID: 1740545930}
   - {fileID: 548532433}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1237949398
 MonoBehaviour:
@@ -42308,7 +42825,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42400,7 +42930,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42492,7 +43035,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1237949408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42585,7 +43141,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1237949432
 Transform:
   m_ObjectHideFlags: 0
@@ -42604,7 +43173,7 @@ Transform:
   - {fileID: 836158946}
   - {fileID: 487086726}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949468
 Transform:
@@ -42623,7 +43192,7 @@ Transform:
   - {fileID: 1255344506}
   - {fileID: 334512771}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949480
 Transform:
@@ -42642,7 +43211,7 @@ Transform:
   - {fileID: 7152854152097075913}
   - {fileID: 891452706}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949486
 Transform:
@@ -42661,7 +43230,7 @@ Transform:
   - {fileID: 1476270431}
   - {fileID: 963948547}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949492
 Transform:
@@ -42715,7 +43284,7 @@ Transform:
   - {fileID: 1350677259}
   - {fileID: 1660183349}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949518
 Transform:
@@ -42750,7 +43319,7 @@ Transform:
   - {fileID: 1839810483}
   - {fileID: 954050093}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949520
 Transform:
@@ -42785,7 +43354,7 @@ Transform:
   - {fileID: 1922659349}
   - {fileID: 1062512168}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 38
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949522
 Transform:
@@ -42819,7 +43388,7 @@ Transform:
   - {fileID: 327724268}
   - {fileID: 1389906220}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949524
 Transform:
@@ -42838,7 +43407,7 @@ Transform:
   - {fileID: 536843235}
   - {fileID: 2023014936}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949525
 Transform:
@@ -42872,7 +43441,7 @@ Transform:
   - {fileID: 185569847}
   - {fileID: 410647542}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237949527
 Transform:
@@ -43503,7 +44072,7 @@ Transform:
   - {fileID: 1315464019}
   - {fileID: 766897396}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1258433125
 Rigidbody:
@@ -43574,7 +44143,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1258433127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44766,7 +45348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4556696864858260, guid: 4d1e4d0fb2b514b4586e009f1c9a4efa, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 4556696864858260, guid: 4d1e4d0fb2b514b4586e009f1c9a4efa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -44916,7 +45498,7 @@ Transform:
   - {fileID: 1740903437}
   - {fileID: 784761083}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 73
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1292783983
 Rigidbody:
@@ -44981,7 +45563,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1294991724
 GameObject:
   m_ObjectHideFlags: 0
@@ -45697,7 +46292,7 @@ Transform:
   - {fileID: 435461579}
   - {fileID: 1726880544}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 68
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 179.99998, z: 0}
 --- !u!54 &1326423910
 Rigidbody:
@@ -45768,7 +46363,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1326423912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45972,7 +46580,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1333431058
 Transform:
   m_ObjectHideFlags: 0
@@ -45991,7 +46612,7 @@ Transform:
   - {fileID: 299884814}
   - {fileID: 1465344318}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 62
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1333431059
 MonoBehaviour:
@@ -46263,7 +46884,7 @@ Transform:
   - {fileID: 178411218}
   - {fileID: 509533515}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 60
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1339473957
 Rigidbody:
@@ -46334,7 +46955,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1339473959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46817,7 +47451,7 @@ Transform:
   - {fileID: 137680116}
   - {fileID: 736369701}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1354405296
 Rigidbody:
@@ -46888,7 +47522,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1354405298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48952,7 +49599,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 725166371}
-  occupied: 0
 --- !u!65 &1417057268
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49465,7 +50111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4475333517281358, guid: 568ec89fbb400c643bd8eedfc3905328, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4475333517281358, guid: 568ec89fbb400c643bd8eedfc3905328, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -50328,7 +50974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4518974466688642, guid: 80c6ccd2d3933394390c8255edad1dce, type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80c6ccd2d3933394390c8255edad1dce, type: 3}
@@ -50531,7 +51177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511409876550370, guid: f9965335d92884dfa963506c38242108, type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 4511409876550370, guid: f9965335d92884dfa963506c38242108, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -50676,7 +51322,7 @@ Transform:
   - {fileID: 1925764907}
   - {fileID: 1216329536}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1453525615
 GameObject:
@@ -50871,7 +51517,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1455998982
 Transform:
   m_ObjectHideFlags: 0
@@ -50890,7 +51549,7 @@ Transform:
   - {fileID: 2116959070}
   - {fileID: 1910096412}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 64
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1455998983
 MonoBehaviour:
@@ -51074,7 +51733,7 @@ Transform:
   - {fileID: 401689313}
   - {fileID: 1797081419}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1462476054
 Rigidbody:
@@ -51145,7 +51804,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1462476056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53404,7 +54076,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1549055824
 Transform:
   m_ObjectHideFlags: 0
@@ -53420,7 +54105,7 @@ Transform:
   - {fileID: 4211367098186767}
   - {fileID: 1308465591}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549178589
 GameObject:
@@ -53815,7 +54500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4613403647489294, guid: 03544085c8acd8546a745fbc3572b6e7, type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03544085c8acd8546a745fbc3572b6e7, type: 3}
@@ -54465,7 +55150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4120837199567918, guid: f55e5da7d930d37459586907eb1a72ac, type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 76
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55e5da7d930d37459586907eb1a72ac, type: 3}
@@ -55340,7 +56025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511500356954504, guid: 7175b761bed8f6d4998e8d9faec9c61a, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4511500356954504, guid: 7175b761bed8f6d4998e8d9faec9c61a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -55999,7 +56684,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &1625948522
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -58081,7 +58779,7 @@ Transform:
   - {fileID: 810104290}
   - {fileID: 1713805180}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 56
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1723030592
 Rigidbody:
@@ -58152,7 +58850,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1723030594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59512,7 +60223,7 @@ Transform:
   - {fileID: 1761769995}
   - {fileID: 2070280582}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 67
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1761771068
 GameObject:
@@ -61091,7 +61802,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1824543064
 GameObject:
   m_ObjectHideFlags: 0
@@ -62197,7 +62921,7 @@ Transform:
   - {fileID: 317892209}
   - {fileID: 1782920067}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1851694945
 Rigidbody:
@@ -62268,7 +62992,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1851694947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62888,39 +63625,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.23774028
+      value: 0.749
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9044593
+      value: 1.292
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.0993043
+      value: -0.892
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000067963083
+      value: -0.12424188
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.38267174
+      value: 0.08509405
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000020861626
+      value: 0.8156336
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92388445
+      value: 0.55862755
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_RootOrder
-      value: 82
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 45.000004
+      value: -6.431
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -16.118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149437557687504, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 112.09701
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91972c5a86358cb448b3bba9832ddb08, type: 3}
@@ -64790,7 +65535,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1910635913
 Transform:
   m_ObjectHideFlags: 0
@@ -64809,7 +65567,7 @@ Transform:
   - {fileID: 1904622328}
   - {fileID: 605682073}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 63
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1910635914
 MonoBehaviour:
@@ -67052,7 +67810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4458023723049016, guid: 2f747246a56614a40af4a20baddb7da6, type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 82
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f747246a56614a40af4a20baddb7da6, type: 3}
@@ -67613,7 +68371,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1987307424
 Transform:
   m_ObjectHideFlags: 0
@@ -67637,7 +68408,7 @@ Transform:
   - {fileID: 301118525}
   - {fileID: 1146839733}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 90
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1987405489
 GameObject:
@@ -67831,8 +68602,16 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 37245776}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1354572593, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
+      propertyPath: ImpulseThreshold
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354572593, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
+      propertyPath: HighFrictionImpulseOffset
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1068838252043840, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
@@ -67909,6 +68688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plate_b49529ec
       objectReference: {fileID: 0}
+    - target: {fileID: 1500939374049176, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1543514789737472, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
@@ -67979,35 +68762,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.95387334
+      value: 2.273
       objectReference: {fileID: 0}
     - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.88687044
+      value: 1.119
       objectReference: {fileID: 0}
     - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6992269
+      value: -0.941
       objectReference: {fileID: 0}
     - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0000004645528
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000016859094
+      value: 0.270713
       objectReference: {fileID: 0}
     - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000034957475
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.96266013
       objectReference: {fileID: 0}
     - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167857420497344, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 31.413002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7f0a59bee0bd0e40b75c8a22f7d99d9, type: 3}
@@ -68251,7 +69038,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1996620738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69551,7 +70351,7 @@ Transform:
   - {fileID: 1250486422}
   - {fileID: 1666426091}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 59
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2034323398
 Rigidbody:
@@ -69622,7 +70422,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &2034323400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70418,7 +71231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4765872426525650, guid: 3120b876570aa4661bedce0a2fc432b1, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4765872426525650, guid: 3120b876570aa4661bedce0a2fc432b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -71904,7 +72717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4316550144703594, guid: 24820c60646ed4f1bbcf45ac808a83d7, type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 114500127484844686, guid: 24820c60646ed4f1bbcf45ac808a83d7,
         type: 3}
@@ -72453,7 +73266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4320093655318376, guid: e0e2b048e94db4048bab7f500a7afa9f, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0e2b048e94db4048bab7f500a7afa9f, type: 3}
@@ -73942,7 +74755,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 725166371}
-  occupied: 0
 --- !u!65 &2135669198
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75403,7 +76215,7 @@ Transform:
   - {fileID: 4832933605974173}
   - {fileID: 1179280083}
   m_Father: {fileID: 37245776}
-  m_RootOrder: 72
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: -90.00001}
 --- !u!4 &4322996345416928
 Transform:
@@ -76306,7 +77118,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114247243330182578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76345,7 +77170,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114247243660356976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76384,7 +77222,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114247243765026506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76423,7 +77274,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114540074994459007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76471,7 +77335,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114660693340508045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76486,7 +77363,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1549055821}
-  occupied: 0
 --- !u!114 &114739950504467775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76534,7 +77410,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!23 &7152854152094782617
 MeshRenderer:
   m_ObjectHideFlags: 0

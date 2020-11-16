@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.9458867, g: 0.9721845, b: 0.7823393, a: 1}
+  m_IndirectSpecularColor: {r: 0.94317067, g: 0.9682602, b: 0.7794443, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5429,7 +5429,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &227667502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8117,7 +8130,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &298771760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8932,7 +8958,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &316175076
 Transform:
   m_ObjectHideFlags: 0
@@ -9194,7 +9233,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1795893561}
-  occupied: 0
 --- !u!65 &323413842
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10302,7 +10340,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &357115427
 GameObject:
   m_ObjectHideFlags: 0
@@ -10766,6 +10817,89 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.65325004, y: 0.8341499, z: 0.028592503}
   m_Center: {x: -0.32500002, y: 0, z: 0.014296251}
+--- !u!1 &380949738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380949741}
+  - component: {fileID: 380949740}
+  - component: {fileID: 380949739}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &380949739
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380949738}
+  m_Enabled: 1
+--- !u!20 &380949740
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380949738}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 1847
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 2
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &380949741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380949738}
+  m_LocalRotation: {x: 0.15037464, y: 0.6909312, z: -0.15037516, w: 0.6909334}
+  m_LocalPosition: {x: 0.264, y: 1.523, z: -0.133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 24.557001, y: 90.00001, z: 0}
 --- !u!1001 &381610892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11122,7 +11256,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &393541740
 GameObject:
   m_ObjectHideFlags: 0
@@ -12644,7 +12791,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &435491218
 GameObject:
   m_ObjectHideFlags: 0
@@ -17453,7 +17613,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &584751275
 GameObject:
   m_ObjectHideFlags: 0
@@ -17585,7 +17758,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &584751282
 Transform:
   m_ObjectHideFlags: 0
@@ -17712,7 +17898,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &584751288
 Transform:
   m_ObjectHideFlags: 0
@@ -17862,7 +18061,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &584751294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17955,7 +18167,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &584751298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18047,7 +18272,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!33 &584751302
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18344,7 +18582,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &584751315
 Transform:
   m_ObjectHideFlags: 0
@@ -19451,6 +19702,26 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 4164336540272054, guid: 05df8866262ad4f6aabde2581dc4dfd5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000052228856
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164336540272054, guid: 05df8866262ad4f6aabde2581dc4dfd5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7933522
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164336540272054, guid: 05df8866262ad4f6aabde2581dc4dfd5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000017909852
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164336540272054, guid: 05df8866262ad4f6aabde2581dc4dfd5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.608763
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164336540272054, guid: 05df8866262ad4f6aabde2581dc4dfd5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 105.00001
+      objectReference: {fileID: 0}
     - target: {fileID: 4546086481019624, guid: 05df8866262ad4f6aabde2581dc4dfd5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.4220383
@@ -20390,7 +20661,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1001 &636570759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21765,7 +22049,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &657239355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22397,7 +22694,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &678313591
 GameObject:
   m_ObjectHideFlags: 0
@@ -26530,7 +26840,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &837426225
 GameObject:
   m_ObjectHideFlags: 0
@@ -29727,7 +30050,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1343209339}
-  occupied: 0
 --- !u!65 &968420429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30479,7 +30801,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1306755128}
-  occupied: 0
 --- !u!65 &1001142328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30751,7 +31072,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1306755128}
-  occupied: 0
 --- !u!65 &1008291795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31565,7 +31885,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1050225499
 GameObject:
   m_ObjectHideFlags: 0
@@ -32319,7 +32652,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1074801315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34057,7 +34403,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &1147254183
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35552,7 +35911,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1306755128}
-  occupied: 0
 --- !u!65 &1204468567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35831,7 +36189,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1208953768
 GameObject:
   m_ObjectHideFlags: 0
@@ -36166,7 +36537,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1224153318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4651627892071536, guid: 3714963090743491891e5aa4fab66884,
@@ -36883,7 +37267,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!4 &1236799248
 Transform:
   m_ObjectHideFlags: 0
@@ -37506,7 +37903,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1264772427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38382,7 +38792,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1308026846
 GameObject:
   m_ObjectHideFlags: 0
@@ -38514,7 +38937,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &1309242950
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39661,7 +40097,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1344250365
 GameObject:
   m_ObjectHideFlags: 0
@@ -41790,7 +42239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4521559998082284, guid: 985802acaa922614a8d30d7dcb17acbc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.0221037
+      value: 1.308
       objectReference: {fileID: 0}
     - target: {fileID: 4521559998082284, guid: 985802acaa922614a8d30d7dcb17acbc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -41798,7 +42247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4521559998082284, guid: 985802acaa922614a8d30d7dcb17acbc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5185354
+      value: -0.627
       objectReference: {fileID: 0}
     - target: {fileID: 4521559998082284, guid: 985802acaa922614a8d30d7dcb17acbc, type: 3}
       propertyPath: m_LocalRotation.x
@@ -43941,7 +44390,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1524483472
 GameObject:
   m_ObjectHideFlags: 0
@@ -44216,7 +44678,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1530405762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44603,15 +45078,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116228098669120, guid: f503e145419f6b04ebc7a64bc95ad61e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4336525
+      value: 1.073
       objectReference: {fileID: 0}
     - target: {fileID: 4116228098669120, guid: f503e145419f6b04ebc7a64bc95ad61e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1503117
+      value: 0.901
       objectReference: {fileID: 0}
     - target: {fileID: 4116228098669120, guid: f503e145419f6b04ebc7a64bc95ad61e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5350385
+      value: -0.455
       objectReference: {fileID: 0}
     - target: {fileID: 4116228098669120, guid: f503e145419f6b04ebc7a64bc95ad61e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -44758,7 +45233,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1306755128}
-  occupied: 0
 --- !u!65 &1547208873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49123,15 +49597,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4931822266154608, guid: 36f8efe047d1dfe4b9786e9bfeb0a2a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.205039
+      value: 1.4328
       objectReference: {fileID: 0}
     - target: {fileID: 4931822266154608, guid: 36f8efe047d1dfe4b9786e9bfeb0a2a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.94137216
+      value: 1.2952
       objectReference: {fileID: 0}
     - target: {fileID: 4931822266154608, guid: 36f8efe047d1dfe4b9786e9bfeb0a2a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.5666331
+      value: 0.0633
       objectReference: {fileID: 0}
     - target: {fileID: 4931822266154608, guid: 36f8efe047d1dfe4b9786e9bfeb0a2a0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -50055,7 +50529,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1684782150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51607,7 +52094,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 0.279
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -51615,27 +52102,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.131
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 5400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Drag
@@ -52678,7 +53169,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1799755145
 GameObject:
   m_ObjectHideFlags: 0
@@ -52860,7 +53364,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1306755128}
-  occupied: 0
 --- !u!65 &1809890866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53760,7 +54263,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &1850105414
 GameObject:
   m_ObjectHideFlags: 0
@@ -54171,7 +54687,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &1861641993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -55196,7 +55725,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &1901074727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57472,7 +58014,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!54 &1986467633
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -59136,15 +59691,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4542691481114092, guid: 9e2b1710d5549ac4e8f2b96da4921370, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.164
+      value: 1.438
       objectReference: {fileID: 0}
     - target: {fileID: 4542691481114092, guid: 9e2b1710d5549ac4e8f2b96da4921370, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9752501
+      value: 1.249
       objectReference: {fileID: 0}
     - target: {fileID: 4542691481114092, guid: 9e2b1710d5549ac4e8f2b96da4921370, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.16
+      value: -0.487
       objectReference: {fileID: 0}
     - target: {fileID: 4542691481114092, guid: 9e2b1710d5549ac4e8f2b96da4921370, type: 3}
       propertyPath: m_LocalRotation.x
@@ -59367,7 +59922,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 1220184415}
-  occupied: 0
 --- !u!65 &2037511429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62979,7 +63533,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!114 &114660694710748849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62994,7 +63561,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentlyContains: []
   myParent: {fileID: 316175073}
-  occupied: 0
 --- !u!114 &114739951839515651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63042,7 +63608,20 @@ MonoBehaviour:
   numFloorHit: 0
   numStructureHit: 0
   lastVelocity: 0
+  IsReceptacle: 0
+  IsPickupable: 0
+  IsMoveable: 0
+  IsToggleable: 0
+  IsOpenable: 0
+  IsBreakable: 0
+  IsFillable: 0
+  IsDirtyable: 0
+  IsCookable: 0
+  IsSliceable: 0
+  canChangeTempToHot: 0
+  canChangeTempToCold: 0
   ContainedObjectReferences: []
+  CurrentlyContains: []
 --- !u!1 &8646232081432280385
 GameObject:
   m_ObjectHideFlags: 0
