@@ -933,13 +933,32 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 case "reproarmstuck":
                 {
                     List<string> commands = new List<string>();
-                    commands.Add("pp");
-                    commands.Add("rr");
                     commands.Add("inita");
-                    commands.Add("mmlah 1 1 True True");
-                    commands.Add("telefull");
-                    commands.Add("mmlah 0.5203709825292535 2 True True");
-                    commands.Add("mmla 0.01000303 -1.63912773e-06 0.558107364 2 armBase True False True");
+                    commands.Add("telefull -0.75 0.9009992480278015 0.75 45 10");
+                    commands.Add("pumlh");
+                    commands.Add("rc 45 True False True 1");
+                    commands.Add("mmla -1.1920929e-07 0.05 0.3999999 1 True False True");
+                    commands.Add("mmla -2.98023224e-07 0.1000000119 0.3999997 1 True False True");
+                    commands.Add("mmla -4.76837158e-07 0.1499999642 0.399999529 1 True False True");
+                    commands.Add("mmla -6.556511e-07 0.09999991700000001 0.39999935 1 True False True");
+                    commands.Add("mmla -8.34465e-07 0.0999999642 0.449999171 1 True False True");
+                    commands.Add("pumlh");
+                    commands.Add("mmla -1.013279e-06 0.0999999642 0.399999 1 True False True");
+                    commands.Add("mmla -0.0500011920929 0.0999999642 0.3999988 1 True False True");
+                    commands.Add("mmla -1.3827999999979634e-06 0.0999999642 0.399998635 1 True False True");
+                    commands.Add("mmla -1.54972076e-06 0.1499999642 0.399998456 1 True False True");
+                    commands.Add("pumlh");
+                    commands.Add("mmla -0.0500017285347 0.149999917 0.399998277 1 True False True");
+                    commands.Add("mmlah 0.3833337017660478 1 True False True False");
+                    commands.Add("mmla -0.05000192 0.149999887 0.4499981 1 True False True");
+                    commands.Add("mmla -2.0981000000003247e-06 0.149999887 0.449997932 1 True False True");
+                    commands.Add("mmla -2.2649765e-06 0.149999887 0.399997753 1 True False True");
+                    commands.Add("mmla -2.44379044e-06 0.099999887 0.399997562 1 True False True");
+                    commands.Add("mmlah 0.3333340911362662 1 True False True False");
+                    commands.Add("rc 45 True False True 1");
+                    commands.Add("rc -45 True False True 1");
+                    //commands.Add("mc 0.0 0.0 0.2 1");
+
                     StartCoroutine(ExecuteBatch(commands));
                     break;
                 }
@@ -3052,20 +3071,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
                                  action.speed = float.Parse(splitcommand[4]);
                              }     
 
-                             if(splitcommand.Length >= 6) {
-                                 action.coordinateSpace = splitcommand[5];
+                            //  if(splitcommand.Length >= 6) {
+                            //      action.coordinateSpace = splitcommand[5];
+                            //  }
+
+                             if (splitcommand.Length >= 6) {
+                                 action.returnToStart = bool.Parse(splitcommand[5]);
                              }
 
-                             if (splitcommand.Length >= 7) {
-                                 action.returnToStart = bool.Parse(splitcommand[6]);
+                             if(splitcommand.Length >= 7) {
+                                 action.restrictMovement = bool.Parse(splitcommand[6]);
                              }
 
                              if(splitcommand.Length >= 8) {
-                                 action.restrictMovement = bool.Parse(splitcommand[7]);
-                             }
-
-                             if(splitcommand.Length >= 9) {
-                                 action.disableRendering = bool.Parse(splitcommand[8]);
+                                 action.disableRendering = bool.Parse(splitcommand[7]);
                              }
 
                         }
@@ -3107,7 +3126,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                         else {
                             Debug.LogError("Target x y z args needed for command");
                         }
-                        action.stopArmMovementOnContact = true;
+                        action.restrictMovement = false;
+                        //action.stopArmMovementOnContact = true;
                         //action.stopArmMovementOnContact = true;
                         PhysicsController.ProcessControlCommand(action);
                         break;
@@ -3234,16 +3254,22 @@ namespace UnityStandardAssets.Characters.FirstPerson
                             action.degrees = float.Parse(splitcommand[1]);
                             
                              if (splitcommand.Length >= 3) {
-                                 action.speed = float.Parse(splitcommand[2]);
+                                 action.disableRendering = bool.Parse(splitcommand[2]);
+                                 //action.speed = float.Parse(splitcommand[2]);
                              }
 
                              if (splitcommand.Length >= 4) {
-                                 action.disableRendering = bool.Parse(splitcommand[3]);
+                                 action.restrictMovement = bool.Parse(splitcommand[3]);
                              }
 
                              if (splitcommand.Length >= 5) {
                                  action.returnToStart = bool.Parse(splitcommand[4]);
                              }
+
+                             if (splitcommand.Length >= 6) {
+                                 action.speed = float.Parse(splitcommand[5]);
+                             }
+
                         }
 
                         PhysicsController.ProcessControlCommand(action);
