@@ -126,6 +126,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         T directionToTarget = getDirection(target, currentProperty);
 
         while ( currentDistance > epsilon && collisionListener.StaticCollisions().Count == 0) {
+            Debug.Log("collisionListener.StaticCollisions just called from while loop of updateTransformPropertyFixedUpdate");
             Debug.Log("inside while loop of ContinuousMovement");
             previousProperty = getProp(moveTransform);
 
@@ -185,10 +186,12 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         T target,
         T resetProp
     ) {
+        Debug.Log("contiuous move finish is happening");
         var actionSuccess = true;
         var debugMessage = "";
         var arm = controller.GetComponentInChildren<IK_Robot_Arm_Controller>();
 
+        Debug.Log("collisionListener.StaticCollisions is being called from continuousMoveFinish");
         var staticCollisions = collisionListener.StaticCollisions();
 
         if (staticCollisions.Count > 0){

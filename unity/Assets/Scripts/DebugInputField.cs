@@ -56,6 +56,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             double epsilon = 1e-3;
             while (currentDistance > epsilon && arm.collisionListener.StaticCollisions().Count == 0)
             {
+                Debug.Log("StaticCollisions called from moveArmHeightDebug");
                 Vector3 direction = (target - arm.transform.localPosition).normalized;
                 arm.transform.localPosition += direction * 1.0f * Time.fixedDeltaTime;
 
@@ -97,6 +98,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             Debug.Log("Starting arm movement");
             while (currentDistance > epsilon && arm.collisionListener.StaticCollisions().Count == 0)
             {
+                Debug.Log("StaticCollisions called from moveArmDebug");
                 Vector3 direction = (target - armTarget.transform.position).normalized;
                 armTarget.transform.position += direction * 1.0f * Time.fixedDeltaTime;
 

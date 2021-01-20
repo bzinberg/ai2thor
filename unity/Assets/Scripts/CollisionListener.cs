@@ -102,7 +102,7 @@ public class CollisionListener : MonoBehaviour
                 SimObjPhysics sop = col.GetComponentInParent<SimObjPhysics>();
                 if(sop.PrimaryProperty == SimObjPrimaryProperty.Static)
                 {
-
+                    print("static sim object hit by trigger check");
                     if(!col.isTrigger)
                     {
                         // #if UNITY_EDITOR
@@ -117,13 +117,19 @@ public class CollisionListener : MonoBehaviour
                 //if instead it is a moveable or pickupable sim object
                 else if (useMassThreshold)
                 {
+                    print("not a static sim object hit by trigger check, check Mass Threshold");
                     //if a moveable or pickupable object is too heavy for the arm to move
                     //flag it as a static collision so the arm will stop
                     if(sop.Mass > massThreshold)
                     {
+                    if(!col.isTrigger)
+                    {
                         sc = new StaticCollision();
                         sc.simObjPhysics = sop;
-                        sc.gameObject = col.gameObject;                    
+                        sc.gameObject = col.gameObject;  
+                    }
+ 
+                                         
                     }
                 }
             }
@@ -152,11 +158,12 @@ public class CollisionListener : MonoBehaviour
    }
 
    public List<StaticCollision> StaticCollisions() {
-       print("number of active colliders: " + StaticCollisions(this.activeColliders).Count + ": My Parent is: " + this.transform.name);
+       print("number of active colliders detected: " + StaticCollisions(this.activeColliders).Count);
        return StaticCollisions(this.activeColliders);
     }
 
     public bool ShouldHalt() {
+        print("staticCollisions is being called from ShouldHalt()");
         return StaticCollisions().Count > 0;
     }
 

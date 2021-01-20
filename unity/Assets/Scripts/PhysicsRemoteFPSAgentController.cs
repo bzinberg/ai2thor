@@ -9271,6 +9271,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
                 var collisionListener = arm.GetComponentInChildren<CollisionListener>();
                 if (collisionListener != null) {
                     List<Dictionary<string, string>> collisions = new List<Dictionary<string, string>>();
+                    print("collisionListener.StaticCollisions being called from GetMidLevelArmCollisions");
                     foreach(var sc in collisionListener.StaticCollisions()){
                         var element = new Dictionary<string, string>();
                         if (sc.simObjPhysics != null) {
@@ -9299,6 +9300,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             var arm = this.GetComponentInChildren<IK_Robot_Arm_Controller>();
             if (arm != null) {
                 var scs = arm.collisionListener.StaticCollisions();
+                Debug.Log("StaticCollisions called from DebugMidLevelArmCollisions()");
                 Debug.Log("Total current active static arm collisions: " + scs.Count);
                 foreach(var sc  in scs) {
                     Debug.Log("Arm static collision: " + sc.name);
