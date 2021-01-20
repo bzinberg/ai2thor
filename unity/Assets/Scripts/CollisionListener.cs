@@ -98,38 +98,35 @@ public class CollisionListener : MonoBehaviour
         StaticCollision sc = null;
         if(col.GetComponentInParent<SimObjPhysics>())
             {
-                //how does this handle nested sim objects? maybe it's fine?
-                SimObjPhysics sop = col.GetComponentInParent<SimObjPhysics>();
-                if(sop.PrimaryProperty == SimObjPrimaryProperty.Static)
+                //only detect collisions with non-trigger colliders detected
+                if(!col.isTrigger)
                 {
-                    print("static sim object hit by trigger check");
-                    if(!col.isTrigger)
+                    //how does this handle nested sim objects? maybe it's fine?
+                    SimObjPhysics sop = col.GetComponentInParent<SimObjPhysics>();
+                    if(sop.PrimaryProperty == SimObjPrimaryProperty.Static)
                     {
+
+
                         // #if UNITY_EDITOR
                         // Debug.Log("Collided with static sim obj " + sop.name);
                         // #endif
                         sc = new StaticCollision();
                         sc.simObjPhysics = sop;
                         sc.gameObject = col.gameObject;
+                    
                     }
-                }
 
-                //if instead it is a moveable or pickupable sim object
-                else if (useMassThreshold)
-                {
-                    print("not a static sim object hit by trigger check, check Mass Threshold");
-                    //if a moveable or pickupable object is too heavy for the arm to move
-                    //flag it as a static collision so the arm will stop
-                    if(sop.Mass > massThreshold)
+                    //if instead it is a moveable or pickupable sim object
+                    else if (useMassThreshold)
                     {
-                    if(!col.isTrigger)
-                    {
-                        sc = new StaticCollision();
-                        sc.simObjPhysics = sop;
-                        sc.gameObject = col.gameObject;  
-                    }
- 
-                                         
+                        //if a moveable or pickupable object is too heavy for the arm to move
+                        //flag it as a static collision so the arm will stop
+                        if(sop.Mass > massThreshold)
+                        {
+                            sc = new StaticCollision();
+                            sc.simObjPhysics = sop;
+                            sc.gameObject = col.gameObject;                    
+                        }
                     }
                 }
             }
@@ -137,6 +134,7 @@ public class CollisionListener : MonoBehaviour
             //also check if the collider hit was a structure?
             else if(col.gameObject.CompareTag("Structure"))
             {                
+                //only detect collisions with non-trigger colliders detected
                 if(!col.isTrigger)
                 {
                     sc = new StaticCollision();
