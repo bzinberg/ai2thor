@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -71,14 +71,13 @@ public class CollisionListener : MonoBehaviour
 
     public void OnTriggerStay(Collider col)
     {
-        #if UNITY_EDITOR
-        if(!activeColliders.Contains(col)) {
-         if (col.gameObject.name == "StandardIslandHeight" || col.gameObject.name == "Sphere"){
-             Debug.Log("got collision stay with " + col.gameObject.name + " this" + this.gameObject.name);
-         }
-        }
-        #endif
-        this.
+        // #if UNITY_EDITOR
+        // if(!activeColliders.Contains(col)) {
+        //  if (col.gameObject.name == "StandardIslandHeight" || col.gameObject.name == "Sphere"){
+        //      Debug.Log("got collision stay with " + col.gameObject.name + " this" + this.gameObject.name);
+        //  }
+        // }
+        // #endif
         RegisterCollision(col, CascadeCollisionEventsToParent);
     }
 
@@ -153,6 +152,7 @@ public class CollisionListener : MonoBehaviour
    }
 
    public List<StaticCollision> StaticCollisions() {
+       print("number of active colliders: " + StaticCollisions(this.activeColliders).Count + ": My Parent is: " + this.transform.name);
        return StaticCollisions(this.activeColliders);
     }
 

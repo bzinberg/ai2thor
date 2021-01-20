@@ -126,7 +126,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         T directionToTarget = getDirection(target, currentProperty);
 
         while ( currentDistance > epsilon && collisionListener.StaticCollisions().Count == 0) {
-
+            Debug.Log("inside while loop of ContinuousMovement");
             previousProperty = getProp(moveTransform);
 
             T next = nextProp(moveTransform, directionToTarget);

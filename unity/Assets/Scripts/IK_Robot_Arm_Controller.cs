@@ -106,16 +106,16 @@ public class IK_Robot_Arm_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if(Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     #if UNITY_EDITOR
-        //     debugCapsules.Clear();
-        //     #endif
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            #if UNITY_EDITOR
+            debugCapsules.Clear();
+            #endif
 
-        //     bool result;
-        //     result = IsArmColliding();
-        //     print("Is the arm actively colliding RIGHT NOW?: " + result);
-        // }
+            bool result;
+            result = IsArmColliding();
+            print("Is the arm actively colliding RIGHT NOW?: " + result);
+        }
     }
 
     public HashSet<Collider> currentArmCollisions() {
@@ -171,13 +171,13 @@ public class IK_Robot_Arm_Controller : MonoBehaviour
             var point1 = center - dir * (c.height/2 - radius);
 
             //debug draw ends of each capsule of each joint
-            // #if UNITY_EDITOR
-            // GizmoDrawCapsule gdc = new GizmoDrawCapsule();
-            // gdc.p0 = point0;
-            // gdc.p1 = point1;
-            // gdc.radius = radius;
-            // debugCapsules.Add(gdc);
-            // #endif
+            #if UNITY_EDITOR
+            GizmoDrawCapsule gdc = new GizmoDrawCapsule();
+            gdc.p0 = point0;
+            gdc.p1 = point1;
+            gdc.radius = radius;
+            debugCapsules.Add(gdc);
+            #endif
             
             //ok now finally let's make some overlap capsuuuules
             foreach(var col in Physics.OverlapCapsule(point0, point1, radius, 1 << 8, QueryTriggerInteraction.Ignore))
@@ -200,12 +200,12 @@ public class IK_Robot_Arm_Controller : MonoBehaviour
 
     public bool IsArmColliding()
     {
-        // #if UNITY_EDITOR
-        // debugCapsules.Clear();
-        // #endif
+        #if UNITY_EDITOR
+        debugCapsules.Clear();
+        #endif
 
         HashSet<Collider> colliders = currentArmCollisions();
-
+        print(colliders.Count);
         return colliders.Count > 0;
     }
 

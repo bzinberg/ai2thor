@@ -9570,6 +9570,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         // public void MoveContinuous(Vector3 direction, float speed, bool returnToStart = false, bool disableRendering = false, float fixedDeltaTime = 0.02f)
         public void MoveContinuous(ServerAction action)
         {
+            print("moveContinuous should be happening uyhh");
             var direction = action.direction;
             float speed = action.speed; 
             bool returnToStart = action.returnToStart;
